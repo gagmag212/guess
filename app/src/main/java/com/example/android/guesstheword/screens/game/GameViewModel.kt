@@ -65,7 +65,7 @@ class GameViewModel : ViewModel() {
 
     fun onSkip() {
         if (!wordList.isEmpty()) {
-            _score.value = (_score.value)?.minus(1)
+            _score.value = (_score.value)?.minus(0)
         }
         nextWord()
     }
